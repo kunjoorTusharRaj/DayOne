@@ -1,5 +1,9 @@
 public class mac {
     public static void main(String[] args) {
-        System.out.println("this is the mac.");
+        try {
+            System.out.println("this is the mac.");
+        } catch (Exception e) {
+            System.err.println("Error message "+e);
+        }
     }
 }
